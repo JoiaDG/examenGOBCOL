@@ -1,4 +1,3 @@
-var hora = document.querySelector("#hora");
 var boton = document.querySelector("#submit");
 
 boton.addEventListener('click', function(){
