@@ -1,5 +1,5 @@
+document.querySelector("#hora").value = new Date();
 var boton = document.querySelector("#submit");
-
 boton.addEventListener('click', function(){
     var frase = document.querySelector("#oracion").value.toString();
     frase = frase.replace(/ /g, "")
