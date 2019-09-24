@@ -1,7 +1,7 @@
 document.querySelector("#hora").value = new Date();
 var boton = document.querySelector("#submit");
 boton.addEventListener('click', function(){
-    var frase = document.querySelector("#oracion").value.toString();
+    var frase = document.querySelector("#oracion").value.toString().toLowerCase();
     frase = frase.replace(/ /g, "")
     var matriz = [];
     var contador = parseInt(frase.length);
