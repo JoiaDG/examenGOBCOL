@@ -9,7 +9,7 @@
     <title>UCOL</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand">
             <img width="50px" src="./img/ucolLogo.png" alt="">
             Ucol</a>
@@ -19,13 +19,26 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="col-sm-3 mx-auto p-4 text-center">
+                <label for="Hora">Esta es la hora</label>
+                <input type="date-time" class="form-control"  placeholder="hora" name="" id="hora">
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="form-group text-center">
+                <label for="oracion">Ingresa una oración:</label>
+                <textarea id="oracion" class="form-control mb-2" name="" rows="3"></textarea>
+                <input class="btn btn-primary container-fluid" id="submit" type="button" value="Aceptar">
+            </div>
+        </div>
+    </div>
+    <div class="palabra text-center lead">
+    </div>
     
 </body>
+    <script src="./js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
