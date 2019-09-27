@@ -32,8 +32,6 @@ boton.addEventListener('click', function(){
         alert("Tu palabra si es palindroma");
     }
     
-
-
 });
 
 async function llamar() {
